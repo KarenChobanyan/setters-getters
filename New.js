@@ -1,6 +1,6 @@
 "use strict"
 
-/*function MyDate() {
+function MyDate() {
     return {
         year: 1970,
         month: 0,
@@ -246,17 +246,7 @@
 let x = new MyDate();
 x.thisMinutes = 60 * 24 * 59
 x.thisFullDate = "2023,15,100"
-console.log(x.thisFullDate);*/
+console.log(x.thisFullDate);
 
 
 
-let x  = {
-    name:"karen",
-    age:"30"
-}
-
-Object.defineProperty(x,"name",{
-    writable:false
-})
- x.age = "Armen"
-console.log(x);
